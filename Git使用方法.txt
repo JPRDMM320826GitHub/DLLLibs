@@ -1,0 +1,49 @@
+jiangpeiru
+JPR@2022new
+
+创建Git仓库：
+git clone 网址.git
+
+切换到克隆下来的文件夹里：
+cd ./文件夹/
+
+准备切换分支
+git fetch origin 目标分支名：目标分支名
+
+切换到目标分支
+git checkout 目标分支名
+
+
+准备上传
+git status
+
+
+git add .
+
+
+git status
+
+
+git commit -m "20220817"
+
+
+git commit --amend
+
+
+git push origin common-graph-functioncode
+
+
+// 回退版本
+git reset --hard
+
+git reset --hard (commit后面的标志位)
+
+
+合并分支：
+切换到目标分支：git checkout master_post_fix_JPR
+检测目标分支内容：git status
+开始合并：git merge master
+将冲突的代码删除，然后提交
+
+
+git diff:查看修改的内容
